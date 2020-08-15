@@ -13,8 +13,8 @@ const openModalLogin = () => {
         modal.classList.remove('display-flex');
     }
 
-    btnOpenModal.addEventListener('click', showModal)
-    btnCloseModal.addEventListener('click', hiddenModal)
+    btnOpenModal.addEventListener('click', showModal);
+    btnCloseModal.addEventListener('click', hiddenModal);
 }
 
 export default openModalLogin;
