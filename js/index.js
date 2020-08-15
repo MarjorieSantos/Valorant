@@ -1,3 +1,5 @@
-import initMenu from "./main.js"
+import initMenu from "./openMenu.js"
+import initModalLogin from "./openModalLogin.js"
 
 initMenu();
+initModalLogin();

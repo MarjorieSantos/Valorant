@@ -37,6 +37,10 @@ img {
     display: block;
 }
 
+.display-flex {
+    display: flex;
+}
+
 .display-none {
     display: none;
 }
@@ -169,6 +173,57 @@ img {
 	height: auto; 
 	z-index: -1000;
 	background-size: cover; 
+}
+
+.modal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: #0f1923;
+    border: 1px solid transparent;
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    z-index: 3000;
+    width: 85vw;
+    height: 90vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.modal span {
+    color: white;
+    font-size: 13px;
+}
+
+.around-button {
+    border: 1px solid white;
+    padding: 0px 10px 5px;
+}
+
+.around-button .icon {
+    font-size: 10px;    
+}
+
+.button-title {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.button-title h1 {
+    color: white;
+    font-size: 20px;
+    width: 200px;
+}
+
+.modal .div-btn {
+    margin-top: 15px;
+}
+
+.modal .different-btn .btn {
+    background: #ff4655;
 }
 
 .explication-game {
