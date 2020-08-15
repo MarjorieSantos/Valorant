@@ -328,11 +328,10 @@ img {
     color: white;
 }
 
-
 .channels-btns {
     background: #0f1923;
     color: white;
-    height: 120vh;
+    height: 145vh;
     padding: 60px 30px;
 }
 
@@ -377,14 +376,15 @@ img {
     height: 40px;
 }
 
-
 .facebook-div {
     background: #0f1923;
     width: 100px;
     height: 100px;
     display: flex;
     position: absolute;
-    top: 0;
+    top: 36%;
+    right: 36%;
+    margin:  0 auto;
     align-items: center;
     justify-content: center;
     border: 1px solid white;
@@ -394,6 +394,24 @@ img {
 .facebook-div .icon {
     color: #ff4655;
     font-size: 25px;
+}
+
+.detail-div {
+    background: white;
+    height: 8px;
+    margin-bottom: 8%;
+    width: 37%;
+}
+
+.presentation-facebook p {
+    text-align: start;
+    font-size: 18px;
+}
+
+.presentation-facebook h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8%;
 }
 
 .footer {
