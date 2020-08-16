@@ -184,7 +184,7 @@ img {
     border-top: 1px solid #b3b3b3;
     border-bottom: 1px solid #b3b3b3;
     z-index: 3000;
-    top: 200px;
+    top: 175px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -517,6 +517,17 @@ img {
     from{
       opacity: 0;
       transform: translate3d(30px, 0px, 0px);
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+  }
+
+@keyframes show-left{
+    from{
+      opacity: 0;
+      transform: translate3d(-30px, 0px, 0px);
     }
     to{
       opacity: 1;
