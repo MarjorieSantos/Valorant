@@ -127,7 +127,10 @@ img {
 }
 
 .top-menu {
+    width: 100%;
+    border-bottom: 1px solid #cfccc7;
     display: flex;
+    margin-bottom: 20px;
     justify-content: space-between;
     align-items: center;
 }
