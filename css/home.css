@@ -1,3 +1,26 @@
+button {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: start;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
 .spacing-site {
     padding: 25px;
 }
@@ -71,7 +94,7 @@
 }
 
 .nav-menu {
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
     background: black;
     color: white;
@@ -80,6 +103,7 @@
     right: 0;
     top: 0;
     width: 40vh;
+    overflow: scroll;
     animation: show-right .2s forwards;
 }
 
@@ -95,9 +119,11 @@
     text-transform: uppercase;
 }
 
-.riot.nav-menu {
+.riot.nav-menu{
     left: 0;
+    background: #ece8e1;
     animation: show-left .2s forwards;
+    color: #768079;
 }
 
 .top-menu {
@@ -106,8 +132,33 @@
     align-items: center;
 }
 
-.menu-riot {
-    background: #cfccc7;
+.top-menu.logo-riot img {
+    width: 150px;
+    height: 150px;
+}
+
+.img-menu-riot {
+    height: auto;
+    border-radius: 5px;
+    width: 32vw;
+}
+
+.div-img-riot-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nav-menu.riot .icon {
+    color: #768079;
+}
+
+.option-menu-riot {
+    border: none;
+    background: none;
+    display: flex;
+    width: 100%;
 }
 
 .section-content-video {
@@ -153,31 +204,6 @@
 	background-size: cover; 
 }
 
-.modal {
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    background: #0f1923;
-    border: 1px solid transparent;
-    border-top: 1px solid #b3b3b3;
-    border-bottom: 1px solid #b3b3b3;
-    z-index: 3000;
-    top: 175px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    width: 85vw;
-    height: 90vw;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.modal span {
-    color: white;
-    font-size: 13px;
-}
-
 .around-button {
     border: 1px solid white;
     padding: 0px 10px 5px;
@@ -198,14 +224,6 @@
     color: white;
     font-size: 20px;
     width: 200px;
-}
-
-.modal .div-btn {
-    margin-top: 15px;
-}
-
-.modal .different-btn .btn {
-    background: #ff4655;
 }
 
 .explication-game {
@@ -452,45 +470,6 @@
     margin-bottom: 8%;
 }
 
-.footer {
-    background: black;
-    color: #b6b4b2;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 70vh;
-    justify-content: space-between;
-    text-align: center;
-    padding: 40px;
-}
-
-.footer a, p {
-    font-size: 10px;
-    color: #b6b4b2;
-    text-align: center;
-    font-weight: 300;
-}
-
-.footer p:nth-child(1) {
-    font-size: 15px;
-}
-
-.footer p {
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-.footer .privacity-div {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer .logo-riot-games {
-   height: 40px;
-   width: 120px;
-}
-
 @keyframes show-right{
     from{
       opacity: 0;
@@ -523,4 +502,3 @@
       transform: translate3d(0,0,0);
     }
   }
-

@@ -1,4 +1,6 @@
 @import url('./home.css');
+@import url('./modal.css');
+@import url('./footer.css');
 
 * {
     box-sizing: border-box;
@@ -8,25 +10,3 @@
     padding: 0;
 }
 
-button {
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-h1 {
-    font-size: 38px;
-}
-
-h5 {
-    font-size: 20px;
-}
-
-p {
-    font-size: 18px;
-    text-align: start;
-}
-
-img {
-    width: 100%;
-    display: block;
-}

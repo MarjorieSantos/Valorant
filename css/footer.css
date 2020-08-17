@@ -1,0 +1,38 @@
+.footer {
+    background: black;
+    color: #b6b4b2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer a, p {
+    font-size: 10px;
+    color: #b6b4b2;
+    text-align: center;
+    font-weight: 300;
+}
+
+.footer p:nth-child(1) {
+    font-size: 15px;
+}
+
+.footer p {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.footer .privacity-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .logo-riot-games {
+   height: 40px;
+   width: 120px;
+}
