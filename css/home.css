@@ -126,6 +126,11 @@ img {
     text-transform: uppercase;
 }
 
+.riot.nav-menu {
+    left: 0;
+    animation: show-left .2s forwards;
+}
+
 .top-menu {
     display: flex;
     justify-content: space-between;
