@@ -132,6 +132,10 @@ img {
     align-items: center;
 }
 
+.menu-riot {
+    background: #cfccc7;
+}
+
 .section-content-video {
     height: 70vh;
 }
