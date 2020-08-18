@@ -47,6 +47,10 @@ img {
     font-size: 16px;
 }
 
+.ativo {
+    color: #0f1923;
+}
+
 .btn {
     border: none;
     font-weight: bold;
@@ -102,7 +106,7 @@ img {
     position: fixed;
     right: 0;
     top: 0;
-    width: 40vh;
+    width: 70vw;
     overflow: scroll;
     animation: show-right .2s forwards;
 }
@@ -128,6 +132,7 @@ img {
 
 .riot.nav-menu img {
     border-radius: 5px;
+    height: 25vh;
 }
 
 .top-menu {
@@ -152,7 +157,7 @@ img {
 
 .img-menu-riot {
     height: auto;
-    width: 32vw;
+    width: 30vw;
 }
 
 .div-img-riot-menu {
@@ -166,12 +171,24 @@ img {
     color: #768079;
 }
 
+.nav-menu.riot ul li {
+    padding: 5px;
+}
+
+.nav-menu.riot h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: initial;
+}
+
 .option-menu-riot {
     border: none;
     background: none;
     display: flex;
     font-weight: bold;
     width: 100%;
+    color: #cfccc7;
     margin-bottom: 10px;
     font-size: 18px;
 }
