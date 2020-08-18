@@ -121,9 +121,13 @@ img {
 
 .riot.nav-menu{
     left: 0;
-    background: #ece8e1;
+    background: #f9f9f9;
     animation: show-left .2s forwards;
     color: #768079;
+}
+
+.riot.nav-menu img {
+    border-radius: 5px;
 }
 
 .top-menu {
@@ -136,13 +140,18 @@ img {
 }
 
 .top-menu.logo-riot img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
+}
+
+.top-menu.logo-riot .btn-icon  {
+    padding: 8px 12px;
+    background: #ebebeb;
+    border-radius: 100%;
 }
 
 .img-menu-riot {
     height: auto;
-    border-radius: 5px;
     width: 32vw;
 }
 
@@ -161,6 +170,7 @@ img {
     border: none;
     background: none;
     display: flex;
+    font-weight: bold;
     width: 100%;
     margin-bottom: 10px;
     font-size: 18px;
@@ -235,6 +245,11 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.explication-game span {
+    font-weight: 300;
+    font-size: 18px;
 }
 
 .presentation-valorant {
