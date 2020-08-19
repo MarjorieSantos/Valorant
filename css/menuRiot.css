@@ -1,0 +1,80 @@
+.riot.nav-menu{
+    left: 0;
+    background: #f9f9f9;
+    animation: show-left .2s forwards;
+    color: #768079;
+}
+
+.riot.nav-menu img {
+    border-radius: 5px;
+    height: 25vh;
+}
+
+.top-menu {
+    width: 100%;
+    border-bottom: 1px solid #cfccc7;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu.logo-riot img {
+    width: 120px;
+    height: 120px;
+}
+
+.top-menu.logo-riot .btn-icon  {
+    padding: 8px 12px;
+    background: #ebebeb;
+    border-radius: 100%;
+}
+
+.img-menu-riot {
+    height: auto;
+    width: 30vw;
+}
+
+.div-img-riot-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.nav-menu.riot .icon {
+    color: #768079;
+}
+
+.nav-menu.riot ul li {
+    padding: 5px;
+}
+
+.nav-menu.riot h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: initial;
+}
+
+.option-menu-riot {
+    border: none;
+    background: none;
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+    color: #cfccc7;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+@keyframes show-left{
+    from{
+      opacity: 0;
+      transform: translate3d(-30px, 0px, 0px);
+    }
+    to{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+    }
+  }
